@@ -1,0 +1,17 @@
+{
+  "name": "mxchip-edgeimpulse-remotemanager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "EPLv2",
+  "dependencies": {
+    "cbor": "^5.0.1",
+    "request": "^2.88.2",
+    "serialport": "^8.0.7",
+    "websocket": "^1.0.31"
+  }
+}
