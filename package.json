@@ -1,10 +1,12 @@
 {
-  "name": "mxchip-edgeimpulse-remotemanager",
-  "version": "0.1.0",
+  "name": "serial-edgeimpulse-remotemanager",
+  "version": "0.1.2",
   "description": "",
   "main": "index.js",
-  "bin" : { "serial-edgeimpulse-remotemanager" : "./index.js" },
-  "author": { 
+  "bin": {
+    "serial-edgeimpulse-remotemanager": "./index.js"
+  },
+  "author": {
     "name": "Benjamin Cabé",
     "url": "https://blog.benjamin-cabe.com"
   },
@@ -12,6 +14,7 @@
   "dependencies": {
     "cbor": "^5.0.1",
     "dotenv": "^8.2.0",
+    "request": "^2.88.2",
     "serialport": "^8.0.7",
     "websocket": "^1.0.31"
   }
