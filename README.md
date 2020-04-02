@@ -14,8 +14,18 @@ npm install serial-edgeimpulse-remotemanager -g
 
 ## Usage
 
+The remote manager needs to be configured using the following environment variables:
+
+* `EI_APIKEY`: EdgeImpulse API key (ex. ei_e48a5402eb9ebeca5f2806447218a8765196f31ca0df798a6aa393b7165fad5fe') for your project ;
+* `EI_HMACKEY`: EdgeImpulse HMAC key (ex. 'f9ef9527860b28630245d3ef2020bd2f') for your project ;
+* `EI_DEVICETYPE`: EdgeImpulse Device Type (ex. 'MXChip') ;
+* `EI_DEVICEID`: EdgeImpulse Device ID (ex. 'mxchip001') ;
+* `SERIAL_PORT`: Serial port (ex: 'COM3', '/dev/tty.usbmodem142303', …).
+
+Once properly configured (i.e. variables defined in your environment or in a `.env` file in the folder from where you'll run the tool), simply launch the serial bridge:
+
 ```sh
-serial-edgeimpulse-remotemanager xxx
+serial-edgeimpulse-remotemanager
 ```
 
 ## Author
